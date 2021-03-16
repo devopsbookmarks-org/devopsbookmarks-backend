@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Bookmark } from './Bookmarks/Bookmark';
 import { Tag } from './Tags/Tag';
 import { Topic } from './Topics/Topic';
+import { MonitoringController } from './Monitoring/MonitoringController';
 
 @Module({
 
@@ -42,6 +43,7 @@ import { Topic } from './Topics/Topic';
 
     controllers: [
 
+        MonitoringController
         // BookmarksController
 
     ]
