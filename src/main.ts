@@ -16,15 +16,15 @@ if (Server.getEnvironment() === 'local') {
 Server.bootstrap(BackendModule, 'bookmarks', Number(process.env.PORT) || 8080, {
 
     path: '/bookmarks/swagger',
-    title: 'bookmarks API',
-    description: 'bookmarks Management API',
+    title: 'DevOps Bookmarks API',
+    description: 'DevOps Bookmarks Management API',
     version: '0.0.1',
     tags: [],
-    contactName: 'Matthew Davis',
-    contactEmail: 'support@bookmarks.ai',
-    contactUrl: 'https://bookmarks.ai',
+    contactName: 'DevOps Bookmarks',
+    contactEmail: 'support@devopsbookmarkgs.org',
+    contactUrl: 'https://devopsbookmarkgs.org',
     docsDescription: 'docs',
-    docsUrl: 'https://bookmarks.ai',
+    docsUrl: 'https://devopsbookmarkgs.org',
     serverUrls
 
 }, [
